@@ -1,853 +1,711 @@
+
 <!DOCTYPE html>
-<html lang="en">
-    <head><meta charset="utf-8">
-    <link rel="icon" href="./favicon.ico">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="theme-color" content="#000000">
-    <meta name="description" content="Web site created using create-react-app">
-    <link rel="apple-touch-icon" href="./logo192.png">
-    <link rel="manifest" href="/Edumoon2.o/manifest.json">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
-    <title>EDUMOON</title>
-    <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./theme.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
-    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
-    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="description" content="Slicebox - 3D Image Slider with Fallback">
-    <meta name="keywords" content="jquery, css3, 3d, webkit, fallback, slider, css3, 3d transforms, slices, rotate, box, automatic">
-    <meta name="author" content="Pedro Botelho for Codrops">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    
-    <style>
-    .joinbutton{
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-      }
-      .butn {
-        position: relative;
-        padding: 10px 50px;
-        margin: 10px;
-        border-radius: 30px;
-        text-decoration: none;
-        color: #292929;
-        background-color: 	#25D366;
-        font-weight: bold;
-        text-transform: uppercase;
-        transition: 1s all ease-in-out;
-        overflow: hidden;
-    }
-    #bt {
-        position: relative;
-        padding: 10px 50px;
-        margin: 10px;
-        border-radius: 30px;
-        text-decoration: none;
-        color: #292929;
-        background-color: #404eed;
-        font-weight: bold;
-        text-transform: uppercase;
-        transition: 1s all ease-in-out;
-        overflow: hidden;
-    }
+<html lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<title>Bhavibarath2K23</title>
 
-    .butn::before {
-        position: absolute;
-        content: '';
-        width: 400px;
-        height: 400px;
-        background-color: #fff;
-        top: -370px;
-        left: -120px;
-        border-radius: 45%;
-        transition: 2s all ease-in-out;
-        animation: wave 10s infinite linear;
-    }
+<script data-cfasync="false" data-pagespeed-no-defer>//<![CDATA[
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+//]]>
+</script>
+<link rel='dns-prefetch' href='//export.qodethemes.com' />
+<link rel='dns-prefetch' href='//static.zdassets.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="NeoBeat &raquo; Feed" href="https://neobeat.qodeinteractive.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="NeoBeat &raquo; Comments Feed" href="https://neobeat.qodeinteractive.com/comments/feed/" />
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/neobeat.qodeinteractive.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.13"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='sb_instagram_styles-css' href='https://neobeat.qodeinteractive.com/wp-content/plugins/instagram-feed/css/sb-instagram-2-2.min.css?ver=2.4' type='text/css' media='all' />
+<link rel='stylesheet' id='dripicons-css' href='https://neobeat.qodeinteractive.com/wp-content/plugins/neobeat-core/inc/icons/dripicons/assets/css/dripicons.min.css?ver=5.4.13' type='text/css' media='all' />
+<link rel='stylesheet' id='elegant-icons-css' href='https://neobeat.qodeinteractive.com/wp-content/plugins/neobeat-core/inc/icons/elegant-icons/assets/css/elegant-icons.min.css?ver=5.4.13' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='https://neobeat.qodeinteractive.com/wp-content/plugins/neobeat-core/inc/icons/font-awesome/assets/css/all.min.css?ver=5.4.13' type='text/css' media='all' />
+<link rel='stylesheet' id='ionicons-css' href='https://neobeat.qodeinteractive.com/wp-content/plugins/neobeat-core/inc/icons/ionicons/assets/css/ionicons.min.css?ver=5.4.13' type='text/css' media='all' />
+<link rel='stylesheet' id='linea-icons-css' href='https://neobeat.qodeinteractive.com/wp-content/plugins/neobeat-core/inc/icons/linea-icons/assets/css/linea-icons.min.css?ver=5.4.13' type='text/css' media='all' />
+<link rel='stylesheet' id='linear-icons-css' href='https://neobeat.qodeinteractive.com/wp-content/plugins/neobeat-core/inc/icons/linear-icons/assets/css/linear-icons.min.css?ver=5.4.13' type='text/css' media='all' />
+<link rel='stylesheet' id='material-icons-css' href='https://fonts.googleapis.com/icon?family=Material+Icons&#038;ver=5.4.13' type='text/css' media='all' />
+<link rel='stylesheet' id='simple-line-icons-css' href='https://neobeat.qodeinteractive.com/wp-content/plugins/neobeat-core/inc/icons/simple-line-icons/assets/css/simple-line-icons.min.css?ver=5.4.13' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://neobeat.qodeinteractive.com/wp-includes/css/dist/block-library/style.min.css?ver=5.4.13' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-style-css' href='https://neobeat.qodeinteractive.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=2.5.16' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css' href='https://neobeat.qodeinteractive.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.7' type='text/css' media='all' />
+<link rel='stylesheet' id='ctf_styles-css' href='https://neobeat.qodeinteractive.com/wp-content/plugins/custom-twitter-feeds/css/ctf-styles.min.css?ver=1.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='rabbit_css-css' href='https://export.qodethemes.com/_toolbar/assets/css/rbt-modules.css?ver=5.4.13' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css' href='https://neobeat.qodeinteractive.com/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.2.3' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='select2-css' href='https://neobeat.qodeinteractive.com/wp-content/plugins/woocommerce/assets/css/select2.css?ver=4.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='neobeat-core-dashboard-style-css' href='https://neobeat.qodeinteractive.com/wp-content/plugins/neobeat-core/inc/core-dashboard/assets/css/core-dashboard.min.css?ver=5.4.13' type='text/css' media='all' />
+<link rel='stylesheet' id='perfect-scrollbar-css' href='https://neobeat.qodeinteractive.com/wp-content/plugins/neobeat-core/assets/plugins/perfect-scrollbar/perfect-scrollbar.css?ver=5.4.13' type='text/css' media='all' />
+<link rel='stylesheet' id='swiper-css' href='https://neobeat.qodeinteractive.com/wp-content/themes/neobeat/assets/plugins/swiper/swiper.min.css?ver=5.4.13' type='text/css' media='all' />
+<link rel='stylesheet' id='neobeat-main-css' href='https://neobeat.qodeinteractive.com/wp-content/themes/neobeat/assets/css/main.min.css?ver=5.4.13' type='text/css' media='all' />
+<link rel='stylesheet' id='neobeat-core-style-css' href='https://neobeat.qodeinteractive.com/wp-content/plugins/neobeat-core/assets/css/neobeat-core.min.css?ver=5.4.13' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific-popup-css' href='https://neobeat.qodeinteractive.com/wp-content/themes/neobeat/assets/plugins/magnific-popup/magnific-popup.css?ver=5.4.13' type='text/css' media='all' />
+<link rel='stylesheet' id='neobeat-google-fonts-css' href='https://fonts.googleapis.com/css?family=Poppins%3A300%2C400%2C500%2C600%2C700&#038;subset=latin-ext&#038;ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='neobeat-style-css' href='https://neobeat.qodeinteractive.com/wp-content/themes/neobeat/style.css?ver=5.4.13' type='text/css' media='all' />
+<style id='neobeat-style-inline-css' type='text/css'>
+@media only screen and (max-width: 680px){h2 { font-size: 40px;}}@media only screen and (max-width: 1024px) { #qodef-page-outer { margin-top: -70px;}}.qodef-fullscreen-menu-holder { background-image: url(https://neobeat.qodeinteractive.com/wp-content/uploads/2020/03/fullsc-meni.jpg);}#qodef-page-inner { padding: 0 0;}@media only screen and (max-width: 1024px) { #qodef-page-inner { padding: 0 0;}}#qodef-side-area { background-image: url(https://neobeat.qodeinteractive.com/wp-content/uploads/2020/03/side-area-img.jpg);}.qodef-page-title { height: 125px;background-image: url(https://neobeat.qodeinteractive.com/wp-content/uploads/2020/03/tittle-area-img.jpg);}.qodef-page-title .qodef-m-title,.qodef-page-title .qodef-breadcrumbs span, .qodef-page-title .qodef-breadcrumbs a { color: #ffffff;}@media only screen and (max-width: 1024px) { .qodef-page-title { height: 125px;}}@media only screen and (max-width: 1024px) { .qodef-page-title .qodef-m-content { padding-top: 70px;}}.qodef-header--vertical #qodef-page-header { background-color: rgba(255,255,255,0.1);backdrop-filter: blur(10px);}
+</style>
+<link rel='stylesheet' id='neobeat-core-elementor-css' href='https://neobeat.qodeinteractive.com/wp-content/plugins/neobeat-core/inc/plugins/elementor/assets/css/elementor.min.css?ver=5.4.13' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css' href='https://neobeat.qodeinteractive.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-animations-css' href='https://neobeat.qodeinteractive.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=2.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://neobeat.qodeinteractive.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=2.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-501-css' href='https://neobeat.qodeinteractive.com/wp-content/uploads/elementor/css/post-501.css?ver=1651134588' type='text/css' media='all' />
+<link rel='stylesheet' id='qode-zendesk-chat-css' href='https://neobeat.qodeinteractive.com/wp-content/plugins/qode-zendesk-chat//assets/main.css?ver=5.4.13' type='text/css' media='all' />
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.0'></script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.2.3'></script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js?ver=1.13.1'></script>
+<link rel='https://api.w.org/' href='https://neobeat.qodeinteractive.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://neobeat.qodeinteractive.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://neobeat.qodeinteractive.com/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 5.4.13" />
+<meta name="generator" content="WooCommerce 4.1.4" />
+<link rel="canonical" href="https://neobeat.qodeinteractive.com/tour-showcase/" />
+<link rel='shortlink' href='https://neobeat.qodeinteractive.com/?p=501' />
+<link rel="alternate" type="application/json+oembed" href="https://neobeat.qodeinteractive.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fneobeat.qodeinteractive.com%2Ftour-showcase%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://neobeat.qodeinteractive.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fneobeat.qodeinteractive.com%2Ftour-showcase%2F&#038;format=xml" />
 
-    .butn::after {
-        position: absolute;
-        content: '';
-        width: 400px;
-        height: 400px;
-        background-color: #ececec80;
-        top: -360px;
-        left: -125px;
-        border-radius: 45%;
-        transition: 2s all ease-in-out;
-        animation: wave 9s infinite linear;
-    }
 
-    .butn span {
-        position: relative;
-        z-index: 1;
-       
-    }
+<meta property='og:site_name' content='NeoBeat' />
+<meta property='og:url' content='https://neobeat.qodeinteractive.com' />
+<meta property='og:locale' content='en_US' />
+<meta property='og:description' content='Music WordPress Theme' />
+<meta property='og:title' content='NeoBeat' />
+<meta property='og:type' content='website' />
+<meta property='og:image' content='https://neobeat.qodeinteractive.com/wp-content/uploads/2020/05/open_graph.jpg' />
+<meta property='og:image:width' content='1200' />
+<meta property='og:image:height' content='630' />
+<meta name='twitter:card' content='summary' />
+<meta name='twitter:title' content='NeoBeat' />
+<meta name='twitter:image' content='https://neobeat.qodeinteractive.com/wp-content/uploads/2020/05/open_graph.jpg' />
+<meta name='twitter:description' content='Music WordPress Theme' />
 
-    .butn:hover {
-        color: #fff;
-    }
-    #bt:hover {
-        color: #fff;
-    }
 
-    .butn:hover::before {
-        top: -450px;
-    }
+<script data-cfasync="false" data-pagespeed-no-defer>//<![CDATA[
+	var dataLayer_content = {"pagePostType":"page","pagePostType2":"single-page","pagePostAuthor":"admin"};
+	dataLayer.push( dataLayer_content );//]]>
+</script>
+<script data-cfasync="false">//<![CDATA[
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KLJLSX7');//]]>
+</script>
 
-    .butn:hover::after {
-        top: -440px;
-    }
+ <noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+<meta name="generator" content="Powered by Slider Revolution 6.2.3 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/04/cropped-Favicon_neobeat-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/04/cropped-Favicon_neobeat-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/04/cropped-Favicon_neobeat-180x180.png" />
+<meta name="msapplication-TileImage" content="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/04/cropped-Favicon_neobeat-270x270.png" />
+<script type="text/javascript">function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {				 
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;	
+				try {								
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+					if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+						newh = Math.max(e.mh,window.RSIH);					
+					else{					
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,						
+							sl;					
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];									
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}				
+					if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
+					document.getElementById(e.c).height = newh+"px";
+					window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}					   
+			//});
+		  };</script>
+<style type="text/css" id="wp-custom-css">
+			.page-id-2432 #qodef-back-to-top {
+	display: none;
+}
 
-    @keyframes wave {
-        0% {
-            transform: rotate(0deg);
-        }
-
-        100% {
-            transform: rotate(360deg);
-        }
-        
-    }
-      .button1 {background-color: #0d9f16;} /* Green */
-      .button2 {background-color: #404eed;} /* Blue */
-      </style>
-    <script type="text/javascript" src="modernizr.custom.46884.js">
-    </script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <script defer="defer" src="/Edumoon2.o/static/js/main.5b14f42c.js">
-    </script>
-    <link href="/static/css/main.b860d491.css" rel="stylesheet">
-    <link href="/nav.css" rel="stylesheet">
-    <script>
-        function openNav() {
-          document.getElementById("sidebar open").style.width = "250px";
-          document.getElementById("nav-list").style.marginLeft = "250px";
-        }
-        function closeNav() {
-          document.getElementById("sidebar open").style.width = "0";
-          document.getElementById("nav-list").style.marginLeft= "0";
-        }
-        </script>
+		</style>
 </head>
-<body>
-    <div id="root">
-        <div style="overflow-x: hidden;">
-            <div>
-                </div>
-                    <div>
-                        <nav class="navbar">
-                            <div class="navbar-container container pt-2" >
-                                <div class="logo1"><a href="index.html"><img src="./images/Artboard 1.png" alt=""></a> </div>
-                                <input type="checkbox" name="" id="">
-                                <div class="hamburger-lines">
-                                    <span class="line line1"></span>
-                                    <span class="line line2"></span>
-                                    <span class="line line3"></span>
-                                </div>
-                                <ul class="menu-items">
-                                    <li><a href="event.html">Events</a></li>
-                                    <li><a href="#">Clubs</a></li>
-                                    <li><a href="#">Courses</a></li>
-                                    <li><a href="#">Tutions</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Jobs</a></li>
-                                    <li><a href="#">Login</a></li>
-                                </ul>
-                                
-                            </div>
-                        </nav>
-                </div>
-                <div>
-    <div style="margin-top: 80px;">
-        <section id="hero" class="hero">
-            <div class="container position-relative">
-              <div class="row gy-5" data-aos="fade-in">
-                <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start" style="margin-top:-3px;">
-                 <div> <i><h1 class="text-center" style="text-align: center; color: black;  font-size:55px; font-family:'Times New Roman', Times, serif; ">Largest Interactive Student Community</h1></i>
-                    <center><p>To UpSkill your Career with</p></center>
-                    <center><p>Experts and a Great Network</p></center>
-                    <center><p>Join Now</p></center>
-                </div>
-                 <div class="d-flex justify-content-center justify-content-lg-start">
-                  </div>
-                  <div>
-                    <div class="join-community">
-                        <div class="social-buttons">
-                            <a class="butn" href="https://chat.whatsapp.com/DndX5CJ8Yov4F3pj5VzxzX"target="_blank" style="text-decoration:none;">
-                                                                <span>Whatsapp</span>
-                                                            </a>
-                                                            <a class="butn" id="bt" target="_blank" href="https://discord.gg/2kA86Q8CnU" alt="discord icon">
-                                                               <span>Discord</span>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                 <div class="col-lg-6 order-1 order-lg-2" style="margin-top:-40px ;">
-                    <p></p>
-                  <img src="./images/hero-img.svg" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="100">
-                </div>
-              </div>
-            </div>
-            </div>
-          </section>
-            </div>
-        </div>
-    </div>
-                    <div>
-                        <div class="partners mb-5">
-                            <div class="container" style="margin-top:-10px;">
-                              <i><h1 class="text-center" style="text-align: center; color: black;  font-size:40px;font-family:'Times New Roman', Times, serif ;">TRUSTED BY</h1></i>
-                                </div><div style="margin-top:-25px;">
-                                    <center>
-                                    <img src="./images/au-big-logo.png" alt="Cinque Terre" width="110" height="110">
-                                    <img src="./images/stpi-removebg-preview.png" alt="Cinque Terre" width="140" height="110">
-                                    <img src="./images/msme-removebg-preview.png" alt="Cinque Terre" width="130" height="110">
-                                    <img src="./images/iso-removebg-preview.png" alt="Cinque Terre" width="130" height="110">
-                                    <img src="./images/3f6a55d5-d999-4523-bbeb-819ef1e045ec_3-removebg-preview (1).png" alt="Cinque Terre" width="130" height="140">
-                                    <img src="./images/pontaq-removebg-preview.png" alt="Cinque Terre" width="130" height="110">
-                                    <img src="./images/MIC_LOGO-2-removebg-preview.png" alt="Cinque Terre" width="200" height="110">
-                                     <img src="./images/Startup-India_Preview-3-removebg-preview.png" alt="Cinque Terre" width="150" height="130">
-                                    <img src="./images/picture-1-1536558121-removebg-preview.png" alt="Cinque Terre"width="120" height="120">                                                                                     
-                                </center>         
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="features pt-4">
-                                    <div class="container" style="margin-top:-80px;">
-                                        <div class="row">
-                                            <div class="col" style="margin-bottom: -30px">
-                                            <div class=" text-center">
-                                                <i>  <h1 class="text-center" style="text-align: center; color: black; margin: 5% 5% 20px;font-size:40px;font-family:'Times New Roman', Times, serif;">OUR ACHIEVEMENTS</h1></i><br>
-                                                <div class="section_subtitle">
-                                                    </div>
-                                                    </div>
-                                                    </div>
-                                                    </div>
-                                                    <div class="row features_row">
-                                                <div class="col-lg-4 feature_col">
-                                                    <div class="feature text-center trans_400">
-                                                        <div class="feature_icon">
-                                                            <img src="./images/icons_1.png" alt="">
-                                                        </div>
-                                                        <div class="milestone_counter pt-4" data-end-value="12000" data-sign-after="+">12,000+</div>
-                                                        <h3 class="feature_title">Students</h3>
-                                                        <div class="feature_text">
-                                                            <p style="font-style: normal;">Join our vibrant student community where 12,000+ individuals from all around globe come together to learn,share,grow.</p>
-                                                            <button style="color:#14bdee;padding:10px;border: none;background: none;" >Read more...</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                        <div class="col-lg-4 feature_col">
-                                                            <div class="feature text-center trans_400">
-                                                                <div class="feature_icon">
-                                                                    <img src="./images/icons_2.png" alt="">
-                                                                    </div>
-                                                                    <div class="milestone_counter pt-4" data-end-value="600" data-sign-after="+">600+</div>
-                                                                    <h3 class="feature_title">Internships</h3>
-                                                                    <div class="feature_text">
-                                                                        <p>Discover your dream internships with us and join the many happy students who have already found theirs through our vibrant community.
+<body class="page-template page-template-page-full-width page-template-page-full-width-php page page-id-501 theme-neobeat qode-framework-1.1.2 woocommerce-no-js qodef-back-to-top--enabled  qodef-content-grid-1200 qodef-content-behind-header qodef-header--light qodef-header--vertical qodef-header-appearance--sticky qodef-mobile-header--standard qodef-drop-down-second--full-width qodef-drop-down-second--animate-height neobeat-core-1.0 neobeat-1.0 qodef-rating-stars-hidden elementor-default elementor-kit-1166 elementor-page elementor-page-501" itemscope itemtype="https://schema.org/WebPage">
+<div id="qodef-page-wrapper" class="">
+<header id="qodef-page-header">
+<div id="qodef-page-header-inner">
+<a itemprop="url" class="qodef-header-logo-link qodef-height--set" href="https://neobeat.qodeinteractive.com/" style="height:56px" rel="home">
+<img width="380" height="112" src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/02/home-3-logo-1.png" class="qodef-header-logo-image qodef--main" alt="logo main" /> <img width="380" height="112" src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/02/home-3-logo-1.png" class="qodef-header-logo-image qodef--dark" alt="logo dark" /> <img width="380" height="112" src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/02/home-3-logo-1.png" class="qodef-header-logo-image qodef--light" alt="logo main" /></a>
+<nav class="qodef-header-vertical-navigation qodef-vertical-drop-down--below" role="navigation" aria-label="Vertical Menu">
+<ul id="qodef-vertical-navigation-menu" class="menu">
+	
+	<li id="menu-item-2439" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2439"><a href="index.html"><span class="qodef-menu-item-inner"><span class="qodef-menu-item-text">Home</span></span></a></li>
+	<li id="menu-item-2439" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2439"><a href="aboutus.html"><span class="qodef-menu-item-inner"><span class="qodef-menu-item-text">About us</span></span></a></li>
+	<li id="menu-item-2439" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2439"><a href="event.html"><span class="qodef-menu-item-inner"><span class="qodef-menu-item-text">Events</span></span></a></li>
+</ul> </nav>
+<div class="qodef-vertical-widget-holder">
+<div class="widget widget_neobeat_core_social_icons_group" data-area="social-icons"> <div class="qodef-social-icons-group">
+<span class="qodef-shortcode qodef-m  qodef-icon-holder  qodef-layout--normal qodef-has--circle-hover" data-hover-color="#ffffff" style="margin: 0 0 30px 0px;font-size: 19px">
+<a itemprop="url" href="https://bandcamp.com/" target="_blank">
+<span class="qodef-icon-font-awesome fab fa-bandcamp qodef-icon qodef-e" style=""></span> <svg class="qodef-svg-circle"><circle cx="50%" cy="50%" r="45%"></circle></svg> </a>
+</span><span class="qodef-shortcode qodef-m  qodef-icon-holder  qodef-layout--normal qodef-has--circle-hover" data-hover-color="#ffffff" style="margin: 0 0 30px 7px;font-size: 19px">
+<a itemprop="url" href="https://www.youtube.com/QodeInteractiveVideos" target="_blank">
+<span class="qodef-icon-font-awesome fab fa-youtube qodef-icon qodef-e" style=""></span> <svg class="qodef-svg-circle"><circle cx="50%" cy="50%" r="45%"></circle></svg> </a>
+</span><span class="qodef-shortcode qodef-m  qodef-icon-holder  qodef-layout--normal qodef-has--circle-hover" data-hover-color="#ffffff" style="margin: 0 0 30px 7px;font-size: 19px">
+<a itemprop="url" href="https://soundcloud.com/" target="_blank">
+<span class="qodef-icon-font-awesome fab fa-soundcloud qodef-icon qodef-e" style=""></span> <svg class="qodef-svg-circle"><circle cx="50%" cy="50%" r="45%"></circle></svg> </a>
+</span><span class="qodef-shortcode qodef-m  qodef-icon-holder  qodef-layout--normal qodef-has--circle-hover" data-hover-color="#ffffff" style="margin: 0 0 30px 8px;font-size: 19px">
+<a itemprop="url" href="https://www.instagram.com/qodeinteractive/" target="_blank">
+<span class="qodef-icon-font-awesome fab fa-instagram qodef-icon qodef-e" style=""></span> <svg class="qodef-svg-circle"><circle cx="50%" cy="50%" r="45%"></circle></svg> </a>
+</span><span class="qodef-shortcode qodef-m  qodef-icon-holder  qodef-layout--normal qodef-has--circle-hover" data-hover-color="#ffffff" style="margin: 0 0 30px 8px;font-size: 19px">
+<a itemprop="url" href="https://twitter.com/QodeInteractive" target="_blank">
+<span class="qodef-icon-font-awesome fab fa-twitter qodef-icon qodef-e" style=""></span>  <svg class="qodef-svg-circle"><circle cx="50%" cy="50%" r="45%"></circle></svg> </a>
+</span> </div>
+</div> </div>
+</div>
+</header>
+<header id="qodef-page-mobile-header">
+<div id="qodef-page-mobile-header-inner">
+<a itemprop="url" class="qodef-mobile-header-logo-link" href="https://neobeat.qodeinteractive.com/" style="height:22px" rel="home">
+<img width="224" height="42" src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/04/Logo-dark.png" class="qodef-header-logo-image qodef--main" alt="logo main" /> <img width="380" height="112" src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/02/home-3-logo-1.png" class="qodef-header-logo-image qodef--dark" alt="logo dark" /><img width="380" height="112" src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/02/home-3-logo-1.png" class="qodef-header-logo-image qodef--light" alt="logo light" /></a><a id="qodef-mobile-header-opener" href="#">
+<span class="qodef-circles">
+<span class="qodef-circles-row qodef-cr-1">
+<span class="qodef-circle"></span>
+<span class="qodef-circle"></span>
+<span class="qodef-circle"></span>
+</span>
+<span class="qodef-circles-row qodef-cr-2">
+<span class="qodef-circle"></span>
+<span class="qodef-circle"></span>
+<span class="qodef-circle"></span>
+</span>
+<span class="qodef-circles-row qodef-cr-3">
+<span class="qodef-circle"></span>
+<span class="qodef-circle"></span>
+<span class="qodef-circle"></span>
+</span>
+</span>
+</a>
+ <nav id="qodef-mobile-header-navigation" class="qodef-m" role="navigation" aria-label="Mobile Menu">
+<div class="qodef-m-inner"><ul id="qodef-mobile-header-navigation-menu" class="qodef-content-grid">
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-25 qodef-menu-item--narrow"><a href="index.html"><span class="qodef-menu-item-inner">Home</span></a>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-26 qodef-menu-item--narrow"><a href="aboutus.html"><span class="qodef-menu-item-inner">About Us</span></a>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-26 qodef-menu-item--narrow"><a href="event.html"><span class="qodef-menu-item-inner">Events</span></a>
+</li>
+</ul></div> </nav>
+</div>
+</header>
 
-                                                                        </p>
-                                                                        <button style="color:#14bdee;padding:10px;border: none;background: none;" >Read more...</button>
-                                                                    </div>
-                                                                        </div>
-                                                                        </div>
-                                                                        <div class="col-lg-4 feature_col">
-                                                                            <div class="feature text-center trans_400">
-                                                                                <div class="feature_icon">
-                                                                                    <img src="./images/icons_3.png" alt="">
-                                                                                </div>
-                                                                                <div class="milestone_counter pt-4" data-end-value="30" data-sign-after="+">30+</div>
-                                                                                <h3 class="feature_title">COURSES</h3>
-                                                                                <div class="feature_text"><p>Get ahead of the curve with our curated courses, designed to help you achieve top marks, gain valuable skills and get ready for internships and job opportunities.</p>
-                                                                                    <button style="color:#14bdee;padding:10px;border: none;background: none;" >Read more...</button>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                    <div class="row features_row">
-                                                        <div class="col-lg-4 feature_col">
-                                                            <div class="dropdown">
-                                                            <div class="feature text-center trans_400">
-                                                                <div class="feature_icon">
-                                                                    <img src="./images/icons_4.png" alt="">
-                                                                    </div>
-                                                                    <div class="milestone_counter pt-4" data-end-value="50" data-sign-after="+">50+</div>
-                                                                    <h3 class="feature_title">Companies Collabrated</h3>
-                                                                    <div class="feature_text">
-                                                                        <p>Gain real-world insights, opportunities and expertise to grow with our community as we collaborate with 30+ companies to offer you the best.
+<div id="qodef-page-outer">
+<div id="qodef-page-inner" class="qodef-content-full-width"><main id="qodef-page-content" class="qodef-grid qodef-layout--template ">
+<div class="qodef-grid-inner clear">
+<div class="qodef-grid-item qodef-page-content-section qodef-col--12">
+<div data-elementor-type="wp-page" data-elementor-id="501" class="elementor elementor-501" data-elementor-settings="[]">
+<div class="elementor-inner">
+<div class="elementor-section-wrap">
+<section class="elementor-element elementor-element-4c6d026 elementor-section-full_width elementor-section-height-default elementor-section-height-default qodef-elementor-content-no elementor-section elementor-top-section" data-id="4c6d026" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-element elementor-element-c135968 elementor-column elementor-col-100 elementor-top-column" data-id="c135968" data-element_type="column">
+<div class="elementor-column-wrap  elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-c72d8a5 elementor-widget elementor-widget-wp-widget-rev-slider-widget" data-id="c72d8a5" data-element_type="widget" data-widget_type="wp-widget-rev-slider-widget.default">
+<div class="elementor-widget-container">
+<p class="rs-p-wp-fix"></p>
+<rs-module-wrap id="rev_slider_2_1_wrapper" data-source="gallery" style="background:transparent;padding:0;">
+<rs-module id="rev_slider_2_1" style="" data-version="6.2.3">
+<rs-slides>
+<rs-slide data-key="rs-2" data-title="Slide" data-thumb="//neobeat.qodeinteractive.com/wp-content/uploads/2020/02/home-3-background-img-1-50x100.jpg" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
+<img src="//neobeat.qodeinteractive.com/wp-content/uploads/2020/02/home-3-background-img-1.jpg" alt="D" title="home-3-background-img-1" width="1920" height="1101" data-parallax="off" class="rev-slidebg" data-no-retina>
+<rs-layer id="slider-2-slide-2-layer-1" data-type="image" data-xy="x:c;xo:150px,137px,0,0;y:m;yo:0,0,30px,30px;" data-text="w:normal;" data-dim="w:587px,480px,460px,300px;h:464px,379px,364px,237px;" data-basealign="slide" data-rsp_o="off" data-rsp_bd="off" data-frame_0="sX:0.9;sY:0.9;" data-frame_1="e:power2.inOut;st:170;sp:1000;sR:170;" data-frame_999="o:0;e:power2.inOut;st:w;sp:700;sR:3330;" style="z-index:5;">
+	<img src="//neobeat.qodeinteractive.com/wp-content/uploads/2020/02/home-3-img-1.png" alt="g" width="587" height="464" data-no-retina>
+</rs-layer> </rs-slide>
 
-                                                                        </p>
-                                                                        <button style="color:#14bdee;padding:10px;border: none;background: none;" >Read more...</button>
-                                                                    </div>
-                                                                        </div>
-                                                                        <div class="dropdown-content">
-                                                                            <div>
-                                                                                <img src="./assets/img/clients/client-1.png" width="125" height="82" alt="Flying Bat">
-                                                                                <img src="./assets/img/clients/client-2.png" width="125" height="82" alt="Flying Bat">
-                                                                                <img src="./assets/img/clients/client-3.png" width="125" height="82" alt="Flying Bat">
-                                                                                <img src="./assets/img/clients/client-4.png" width="125" height="82" alt="Flying Bat">
-                                                                                <img src="./assets/img/clients/client-5.png" width="125" height="82" alt="Flying Bat">
-                                                                                <img src="./assets/img/clients/client-6.png" width="125" height="82" alt="Flying Bat">
-                                                                                <img src="./assets/img/clients/client-7.png" width="125" height="82" alt="Flying Bat">
-                                                                                <img src="./assets/img/clients/client-8.png" width="125" height="82" alt="Flying Bat">
-                                                                                <img src="./assets/img/clients/client-9.png" width="125" height="82" alt="Flying Bat">
-                                                                                <img src="./assets/img/clients/client-10.png" width="125" height="82" alt="Flying Bat"> </div>
-                                                                       </div>
-                                                                           
-                                                            </div>
-                                                        </div>
-                                                                        <div class="col-lg-4 feature_col">
-                                                                            <div class="dropdown">
-                                                                            <div class="feature text-center trans_400">
-                                                                                <div class="feature_icon">
-                                                                                    <img src="./images/icons_5.png" alt="">
-                                                                                </div>
-                                                                                <div class="milestone_counter pt-4" data-end-value="7" data-sign-after="+">7+</div>
-                                                                                <h3 class="feature_title">Clubs</h3>
-                                                                                <div class="feature_text"><p>Unleash your potential and discover new horizons with our 7 clubs, designed to help you grow in various aspects of life during your studies. Join now!
+<rs-slide data-key="rs-6" data-title="Slide" data-thumb="//neobeat.qodeinteractive.com/wp-content/uploads/2020/02/home-3-background-img-5-50x100.jpg" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
+	<img src="//neobeat.qodeinteractive.com/wp-content/uploads/2020/02/home-3-background-img-5.jpg" alt="s" title="home-3-background-img-5" width="1920" height="1101" data-parallax="off" class="rev-slidebg" data-no-retina>
+	
+	<rs-layer id="slider-2-slide-6-layer-5" data-type="text" data-xy="x:c;xo:-144px,-59px,-8px,0;y:m;yo:-5px,-5px,-10px,-43px;" data-text="w:nowrap,normal,normal,normal;s:14;a:inherit;" data-dim="w:561px,400px,400px,260px;" data-actions='o:click;a:pauseslider;' data-basealign="slide" data-rsp_o="off" data-rsp_bd="off" data-frame_0="x:50;" data-frame_1="e:power2.inOut;st:100;sp:1000;sR:100;" data-frame_999="x:-50;o:0;e:power2.inOut;st:w;sp:1000;sR:2400;" style="z-index:5;font-family:Poppins;"><div class="qodef-shortcode qodef-m  qodef-album-player qodef-layout--simple qodef--has-album qodef-skin--light">
+	<div id="qodef-m-album-691" class="qodef-m-album jp-jplayer" data-album-id="691"></div>
+	<div class="qodef-m-album-image">
+	<img width="510" height="507" src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/02/single-image-1.jpg" class="attachment-full size-full wp-post-image" alt="s" srcset="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/02/single-image-1.jpg 510w, https://neobeat.qodeinteractive.com/wp-content/uploads/2020/02/single-image-1-100x100.jpg 100w, https://neobeat.qodeinteractive.com/wp-content/uploads/2020/02/single-image-1-300x298.jpg 300w, https://neobeat.qodeinteractive.com/wp-content/uploads/2020/02/single-image-1-150x150.jpg 150w" sizes="(max-width: 510px) 100vw, 510px" /> </div>
+	<div id="qodef-m-player-691" class="qodef-m-player">
+	<div class="qodef-m-player-heading">
+	<h4 class="qodef-m-player-track-title jp-title"></h4> <div class="qodef-m-player-controls jp-gui jp-interface">
+	<ul class="jp-controls">
+	<li>
+	<a class="jp-previous">
+	<svg class="qodef-m-player-controls-icon qodef--previous" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+	<path d="M96,96v320h79V274.2L416,416V96L175,237.8V96H96z M175.6,256l7.6-4.4L400,124v0v264L183.1,260.4L175.6,256z M112,112h47v125.8v28v8.5V400h-47V112z" />
+	</svg> </a>
+	</li>
+	<li>
+	<a class="jp-play">
+	<svg class="qodef-m-player-controls-icon qodef--play" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+	<g><path d="M144,124.9L353.8,256L144,387.1V124.9 M128,96v320l256-160L128,96L128,96z" /></g>
+	</svg> <svg class="qodef-m-player-controls-icon qodef--pause" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+	<g><path d="M191,112v288h-47V112H191 M207,96h-79v320h79V96L207,96z" /><path d="M368,112v288h-47V112H368 M384,96h-79v320h79V96L384,96z" /></g>
+	</svg> </a>
+	</li>
+	<li>
+	<a class="jp-next">
+	<svg class="qodef-m-player-controls-icon qodef--next" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+	<path d="M337,96v141.8L96,96v320l241-141.8V416h79V96H337z M328.9,260.4L112,388V124v0l216.9,127.6l7.6,4.4L328.9,260.4z M400,400h-47V274.2v-8.5v-28V112h47V400z" />
+	</svg> </a>
+	</li>
+	</ul>
+	</div> </div>
+	<div class="qodef-m-track-progress jp-gui jp-interface">
+	<div class="jp-progress">
+	<div class="jp-seek-bar">
+	<div class="jp-play-bar"></div>
+	</div>
+	</div>
+	</div> <div class="qodef-m-player-footer">
+	<a itemprop="url" class="qodef-m-album-title" href="https://neobeat.qodeinteractive.com/album/live-album/">Live Album</a> <div class="qodef-m-track-time jp-gui jp-interface">
+	<span class="qodef-m-track-time-current jp-current-time"></span>/<span class="qodef-m-track-time-duration jp-duration"></span>
+	</div> </div>
+	<div class="qodef-m-playlist jp-type-playlist">
+	<div class="jp-playlist">
+	<ul class="tracks-list">
+	<li></li>
+	</ul>
+	</div>
+	</div> </div>
+	</div>
+	</rs-layer>
+	
+	<rs-layer id="slider-2-slide-6-layer-6" data-type="text" data-xy="x:c;xo:333px,393px,651px,651px;y:m;yo:-107px,-107px,82px,82px;" data-text="w:normal;s:44;l:49;fw:700;" data-vbility="t,t,f,f" data-basealign="slide" data-rsp_o="off" data-rsp_bd="off" data-frame_0="y:100%;" data-frame_0_mask="u:t;" data-frame_1="e:power2.inOut;st:210;sp:1200;sR:210;" data-frame_1_mask="u:t;" data-frame_999="o:0;e:power2.inOut;st:w;sp:1000;sR:2090;" style="z-index:5;font-family:Poppins;">Word From the Team<br />
+	</rs-layer>
+	<rs-layer id="slider-2-slide-6-layer-7" data-type="text" data-xy="x:c;xo:408px,418px,605px,605px;y:m;yo:8px,8px,283px,283px;" data-text="w:normal;s:16;" data-dim="w:531px,427px,427px,427px;" data-vbility="t,t,f,f" data-basealign="slide" data-rsp_o="off" data-rsp_bd="off" data-frame_0="y:50;" data-frame_1="e:power2.inOut;st:280;sp:1000;sR:280;" data-frame_999="o:0;e:power2.inOut;st:w;sp:1000;sR:2220;" style="z-index:5;font-family:Poppins;"> 
+		JCI Vizag YUVA & Yuva Finishing school GVP Adhyanan organizing a Socio-cultural fest on 13th August 2023. Focused on empowering youth to build a clean, green, and secure India through various events and expos. Join us to inspire change in future generations.</rs-layer> </rs-slide>
+<rs-slide data-key="rs-3" data-title="Slide" data-thumb="//neobeat.qodeinteractive.com/wp-content/uploads/2020/02/home-3-background-img-2-50x100.jpg" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
+<img src="//neobeat.qodeinteractive.com/wp-content/uploads/2020/02/home-3-background-img-2.jpg" alt="f" title="home-3-background-img-2" width="1920" height="1101" data-parallax="off" class="rev-slidebg" data-no-retina>
+<rs-layer id="slider-2-slide-3-layer-4" data-type="text" data-xy="x:c;xo:180px,175px,0,0;y:m;yo:-100px,-100px,-50px,40px;" data-text="w:normal;" data-dim="w:640px,600px,600px,300px;h:164px;" data-vbility="t,t,t,f" data-basealign="slide" data-rsp_o="off" data-rsp_bd="off" data-frame_0="x:50;" data-frame_1="e:power2.inOut;st:180;sp:1000;" data-frame_999="x:-50;o:0;e:power2.inOut;st:w;sp:800;" style="z-index:9;font-family:Roboto;">Word From the Team
+</rs-layer>
+<rs-layer id="slider-2-slide-3-layer-12" class="intrinsic-ignore" data-type="text" data-xy="x:c;xo:180px,175px,0,0;y:m;yo:100px,100px,150px,40px;" data-text="w:normal;" data-dim="w:640px,600px,600px,300px;" data-basealign="slide" data-rsp_o="off" data-rsp_bd="off" data-frame_0="x:50;" data-frame_1="e:power2.inOut;st:310;sp:1000;" data-frame_999="x:-50;o:0;e:power2.inOut;st:w;sp:900;" style="z-index:8;font-family:Roboto;"><iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/322101618&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+</rs-layer>
+ </rs-slide>
+<rs-slide data-key="rs-4" data-title="Slide" data-thumb="//neobeat.qodeinteractive.com/wp-content/uploads/2020/02/home-3-background-img-3-50x100.jpg" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
+<img src="//neobeat.qodeinteractive.com/wp-content/uploads/2020/02/home-3-background-img-3.jpg" alt="s" title="home-3-background-img-3" width="1920" height="1101" data-parallax="off" class="rev-slidebg" data-no-retina>
+<rs-layer id="slider-2-slide-4-layer-10" data-type="text" data-xy="x:c;xo:155px,168px,18px,-541px;y:m;yo:314px,308px,378px,241px;" data-text="w:normal;a:center;" data-dim="w:370px,424px,424px,424px;h:260px;" data-vbility="t,t,t,f" data-basealign="slide" data-rsp_o="off" data-rsp_bd="off" data-frame_0="x:50;" data-frame_1="e:power2.inOut;st:210;sp:1000;" data-frame_999="x:-50;o:0;e:power2.inOut;st:w;sp:1000;" style="z-index:9;font-family:Poppins;"><br />
+<a class="qodef-shortcode qodef-m  qodef-button qodef-layout--filled  qodef-html--link" href="https://neobeat.qodeinteractive.com/tour-page/" target="_self" data-hover-color="#38214A" data-hover-background-color="#FFFFFF" data-shadow-color="#FFFFFF" style="color: #38214A;background-color: #FFFFFF;padding: 14px 45px">
+<span class="qodef-m-text">Show all Dates</span>
+</a>
+</rs-layer>
+<rs-layer id="slider-2-slide-4-layer-17" data-type="text" data-xy="x:c;xo:153px,168px,0,0;y:m;yo:-215px,-55px,-30px,30px;" data-text="w:normal;a:inherit;" data-dim="w:870px,720px,586px,260px;" data-vbility="f,f,f,t" data-basealign="slide" data-rsp_o="off" data-rsp_bd="off" data-frame_0="x:100%;" data-frame_0_mask="u:t;" data-frame_1="e:power2.inOut;st:150;sp:1000;sR:150;" data-frame_1_mask="u:t;" data-frame_999="x:-100%;o:0;e:power2.inOut;st:w;sp:1000;sR:3350;" data-frame_999_mask="u:t;" style="z-index:8;font-family:Poppins;"><div class="qodef-shortcode qodef-m  qodef-events-list qodef-skin--light   qodef--enabled-blur qodef-grid qodef-layout--columns  qodef-gutter--normal qodef-col-num--1 qodef-item-layout--info-table qodef--no-bottom-space qodef-pagination--off qodef-responsive--predefined" data-options="{&quot;plugin&quot;:&quot;neobeat_core&quot;,&quot;module&quot;:&quot;post-types/events/shortcodes&quot;,&quot;shortcode&quot;:&quot;events-list&quot;,&quot;post_type&quot;:&quot;event-item&quot;,&quot;next_page&quot;:&quot;2&quot;,&quot;max_pages_num&quot;:9,&quot;behavior&quot;:&quot;columns&quot;,&quot;columns&quot;:&quot;1&quot;,&quot;columns_responsive&quot;:&quot;predefined&quot;,&quot;columns_1440&quot;:&quot;3&quot;,&quot;columns_1366&quot;:&quot;3&quot;,&quot;columns_1024&quot;:&quot;3&quot;,&quot;columns_768&quot;:&quot;3&quot;,&quot;columns_680&quot;:&quot;3&quot;,&quot;columns_480&quot;:&quot;3&quot;,&quot;space&quot;:&quot;normal&quot;,&quot;enable_blur&quot;:&quot;yes&quot;,&quot;posts_per_page&quot;:&quot;2&quot;,&quot;orderby&quot;:&quot;date&quot;,&quot;order&quot;:&quot;ASC&quot;,&quot;layout&quot;:&quot;info-table&quot;,&quot;title_tag&quot;:&quot;h4&quot;,&quot;pagination_type&quot;:&quot;no-pagination&quot;,&quot;enable_background_filter&quot;:&quot;no&quot;,&quot;skin&quot;:&quot;light&quot;,&quot;object_class_name&quot;:&quot;NeoBeatCoreEventsListShortcode&quot;,&quot;item_classes&quot;:&quot;qodef-e qodef-grid-item&quot;,&quot;space_value&quot;:15}">
+<div class="qodef-grid-inner clear">
+<div class="qodef-e qodef-grid-item">
+<div class="qodef-e-inner">
+<h4 class="qodef-e-date">
+29 May	</h4>
+<div class="qodef-e-heading">
+<h4 itemprop="name" class="qodef-e-title entry-title">
+<a itemprop="url" class="qodef-e-title-link" href="https://neobeat.qodeinteractive.com/event-item/europe-tour-2/">
+Brasil Tour	</a>
+</h4> <p class="qodef-e-location">Colosseum, Italy</p>
+</div>
+<div class="qodef-e-tickets-link qodef-status--available">
+<a class="qodef-shortcode qodef-m  qodef-button qodef-layout--shadowed qodef-size--small qodef-html--link" href="https://qodeinteractive.com/" target="_self"> <span class="qodef-m-text">Buy Ticket</span></a> </div>
+</div>
+</div><div class="qodef-e qodef-grid-item">
+<div class="qodef-e-inner">
+<h4 class="qodef-e-date">
+29 May	</h4>
+<div class="qodef-e-heading">
+<h4 itemprop="name" class="qodef-e-title entry-title">
+<a itemprop="url" class="qodef-e-title-link" href="https://neobeat.qodeinteractive.com/event-item/fellows-mansion/">
+Fellows Mansion	</a>
+</h4> <p class="qodef-e-location">Copenhagen, Denmark</p>
+</div>
+<div class="qodef-e-tickets-link qodef-status--available">
+<a class="qodef-shortcode qodef-m  qodef-button qodef-layout--shadowed qodef-size--small qodef-html--link" href="https://qodeinteractive.com/" target="_self"> <span class="qodef-m-text">Buy Ticket</span></a> </div>
+</div>
+</div> </div>
+</div>
+</rs-layer><rs-layer id="slider-2-slide-4-layer-19" data-type="text" data-xy="x:c;xo:168px,168px,0,-577px;y:m;yo:-61px,-61px,0,-80px;" data-text="w:normal;a:inherit;" data-dim="w:870px,720px,586px,373px;" data-vbility="t,t,t,f" data-basealign="slide" data-rsp_o="off" data-rsp_bd="off" data-frame_0="x:50;o:1;" data-frame_1="e:power2.inOut;st:470;sp:1000;sR:470;" data-frame_999="o:1;e:power2.inOut;st:w;sp:800;sR:3030;" style="z-index:12;font-family:Poppins;"><div class="qodef-shortcode qodef-m  qodef-events-list qodef-skin--light   qodef--enabled-blur qodef-grid qodef-layout--columns  qodef-gutter--normal qodef-col-num--1 qodef-item-layout--info-table qodef--no-bottom-space qodef-pagination--off qodef-responsive--predefined" data-options="{&quot;plugin&quot;:&quot;neobeat_core&quot;,&quot;module&quot;:&quot;post-types/events/shortcodes&quot;,&quot;shortcode&quot;:&quot;events-list&quot;,&quot;post_type&quot;:&quot;event-item&quot;,&quot;next_page&quot;:&quot;2&quot;,&quot;max_pages_num&quot;:4,&quot;behavior&quot;:&quot;columns&quot;,&quot;columns&quot;:&quot;1&quot;,&quot;columns_responsive&quot;:&quot;predefined&quot;,&quot;columns_1440&quot;:&quot;3&quot;,&quot;columns_1366&quot;:&quot;3&quot;,&quot;columns_1024&quot;:&quot;3&quot;,&quot;columns_768&quot;:&quot;3&quot;,&quot;columns_680&quot;:&quot;3&quot;,&quot;columns_480&quot;:&quot;3&quot;,&quot;space&quot;:&quot;normal&quot;,&quot;enable_blur&quot;:&quot;yes&quot;,&quot;posts_per_page&quot;:&quot;5&quot;,&quot;orderby&quot;:&quot;date&quot;,&quot;order&quot;:&quot;DESC&quot;,&quot;layout&quot;:&quot;info-table&quot;,&quot;title_tag&quot;:&quot;h4&quot;,&quot;pagination_type&quot;:&quot;no-pagination&quot;,&quot;enable_background_filter&quot;:&quot;no&quot;,&quot;skin&quot;:&quot;light&quot;,&quot;object_class_name&quot;:&quot;NeoBeatCoreEventsListShortcode&quot;,&quot;item_classes&quot;:&quot;qodef-e qodef-grid-item&quot;,&quot;space_value&quot;:15}">
+<div class="qodef-grid-inner clear">
+<div class="qodef-e qodef-grid-item">
+<div class="qodef-e-inner">
+<h4 class="qodef-e-date">
+29 May	</h4>
+<div class="qodef-e-heading">
+<h4 itemprop="name" class="qodef-e-title entry-title">
+<a itemprop="url" class="qodef-e-title-link" href="https://neobeat.qodeinteractive.com/event-item/west-europe-tour/">
+West Europe Tour	</a>
+</h4> <p class="qodef-e-location">Colosseum, Italy</p>
+</div>
+<div class="qodef-e-tickets-link qodef-status--available">
+<a class="qodef-shortcode qodef-m  qodef-button qodef-layout--shadowed qodef-size--small qodef-html--link" href="https://qodeinteractive.com/" target="_self"> <span class="qodef-m-text">Buy Ticket</span></a> </div>
+</div>
+</div><div class="qodef-e qodef-grid-item">
+<div class="qodef-e-inner">
+<h4 class="qodef-e-date">
+29 May	</h4>
+<div class="qodef-e-heading">
+<h4 itemprop="name" class="qodef-e-title entry-title">
+<a itemprop="url" class="qodef-e-title-link" href="https://neobeat.qodeinteractive.com/event-item/city-auditorium-3/">
+City Auditorium	</a>
+</h4> <p class="qodef-e-location">Okayama, Japan</p>
+</div>
+<div class="qodef-e-tickets-link qodef-status--available">
+<a class="qodef-shortcode qodef-m  qodef-button qodef-layout--shadowed qodef-size--small qodef-html--link" href="https://qodeinteractive.com/" target="_self"> <span class="qodef-m-text">Buy Ticket</span></a> </div>
+</div>
+</div><div class="qodef-e qodef-grid-item">
+<div class="qodef-e-inner">
+<h4 class="qodef-e-date">
+29 May	</h4>
+<div class="qodef-e-heading">
+<h4 itemprop="name" class="qodef-e-title entry-title">
+<a itemprop="url" class="qodef-e-title-link" href="https://neobeat.qodeinteractive.com/event-item/artcsape-theatre-2/">
+Artcsape Theatre	</a>
+</h4> <p class="qodef-e-location">Paris, France</p>
+</div>
+<div class="qodef-e-tickets-link qodef-status--available">
+<a class="qodef-shortcode qodef-m  qodef-button qodef-layout--shadowed qodef-size--small qodef-html--link" href="https://qodeinteractive.com/" target="_self"> <span class="qodef-m-text">Buy Ticket</span></a> </div>
+</div>
+</div><div class="qodef-e qodef-grid-item">
+<div class="qodef-e-inner">
+<h4 class="qodef-e-date">
+29 May	</h4>
+<div class="qodef-e-heading">
+<h4 itemprop="name" class="qodef-e-title entry-title">
+<a itemprop="url" class="qodef-e-title-link" href="https://neobeat.qodeinteractive.com/event-item/fellows-mansion-2/">
+Fellows Mansion	</a>
+</h4> <p class="qodef-e-location">Copenhagen, Denmark</p>
+</div>
+<div class="qodef-e-tickets-link qodef-status--available">
+<a class="qodef-shortcode qodef-m  qodef-button qodef-layout--shadowed qodef-size--small qodef-html--link" href="https://qodeinteractive.com/" target="_self"> <span class="qodef-m-text">Buy Ticket</span></a> </div>
+</div>
+</div><div class="qodef-e qodef-grid-item">
+<div class="qodef-e-inner">
+<h4 class="qodef-e-date">
+29 May	</h4>
+<div class="qodef-e-heading">
+<h4 itemprop="name" class="qodef-e-title entry-title">
+<a itemprop="url" class="qodef-e-title-link" href="https://neobeat.qodeinteractive.com/event-item/brasil-tour/">
+Brasil Tour	</a>
+</h4> <p class="qodef-e-location">Colosseum, Italy</p>
+</div>
+<div class="qodef-e-tickets-link qodef-status--available">
+<a class="qodef-shortcode qodef-m  qodef-button qodef-layout--shadowed qodef-size--small qodef-html--link" href="https://qodeinteractive.com/" target="_self"> <span class="qodef-m-text">Buy Ticket</span></a> </div>
+</div>
+</div> </div>
+</div>
+</rs-layer> </rs-slide>
 
-                                                                                </p>
-                                                                                    <button style="color:#14bdee;padding:10px;border: none;background: none;" >Read more...</button>
-                                                 
-                                                                                </div>
-                                                                    </div>
-                                                                    <div class="dropdown-content" style="left:-250px;">
-                                                                        <div>
-                                                                            <img src="./images/clublogos/1.png" alt="" width="120" height="120">
-                                                                            <img src="./images/clublogos/2.png" alt="2" width="120" height="120">
-                                                                            <img src="./images/clublogos/3.png" alt="" width="120" height="120">
-                                                                            <img src="./images/clublogos/4.png" alt="" width="120" height="120">
-                                                                            <img src="./images/clublogos/5.png" alt="" width="120" height="120">
-                                                                            <img src="./images/clublogos/6.png" alt="" width="120" height="120">
-                                                                            <img src="./images/clublogos/7.png" alt="" width="120" height="120">
-                                                                             </div>
-                                                                    </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-4 feature_col">
-                                                                    <div class="dropdown">
-                                                                    <div class="feature text-center trans_400">
-                                                                        <div class="feature_icon">
-                                                                            <img src="./images/icons_6.png" alt="">
-                                                                        </div>
-                                                                        <div class="milestone_counter pt-4" data-end-value="100" data-sign-after="+">15+</div>
-                                                                        <h3 class="feature_title">Colleges</h3>
-                                                                        <div class="feature_text">
-                                                                            <p style="font-style: normal;">Experience the power of collaboration with our inter-university events, designed for students to learn, develop skills, find like-minded individuals from different universities.</p>
-                                                                            <button style="color:#14bdee;padding:10px;border: none;background: none;" >Read more...</button>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="dropdown-content" style="right:5px">
-                                                                        <div>
-                                                                            <img src="./images/clglogos/Screenshot 2022-08-06 at 1.16.01 PM.png" alt="" width="125" height="120">
-                                                                            <img src="./images/clglogos/Screenshot 2023-03-27 at 6.50.17 PM.png" alt="2" width="125" height="120">
-                                                                            <img src="./images/clglogos/Screenshot 2023-03-27 at 6.50.24 PM.png" alt="" width="125" height="125">
-                                                                            <img src="./images/clglogos/Screenshot 2023-03-27 at 6.50.40 PM.png" alt="" width="125" height="125">
-                                                                            <img src="./images/clglogos/Screenshot 2023-03-27 at 6.50.32 PM.png" alt="" width="125" height="125">
-                                                                            <img src="./images/clglogos/Screenshot 2023-03-27 at 6.50.53 PM.png" alt="" width="125" height="82">
-                                                                            <img src="./images/clglogos/Screenshot 2023-03-27 at 6.51.05 PM.png" alt="" width="125" height="125">
-                                                                            <img src="./images/clglogos/Screenshot 2023-03-27 at 6.51.13 PM.png" alt="" width="125" height="125">
-                                                                            <img src="./images/clglogos/Screenshot 2023-03-27 at 6.51.21 PM.png" alt="" width="125" height="125">
-                                                                            <img src="./images/clglogos/Screenshot 2023-03-27 at 6.51.29 PM.png" alt="" width="125" height="125"> 
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
+<rs-slide data-key="rs-5" data-title="Slide" data-thumb="//neobeat.qodeinteractive.com/wp-content/uploads/2020/02/home-3-background-img-4-50x100.jpg" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
+<img src="//neobeat.qodeinteractive.com/wp-content/uploads/2020/02/home-3-background-img-4.jpg" alt="s" title="home-3-background-img-4" width="1920" height="1101" data-parallax="off" class="rev-slidebg" data-no-retina>
+<rs-layer id="slider-2-slide-5-layer-8" class="intrinsic-ignore" data-type="text" data-bsh="c:rgba(0,4,58,0.3);h:20px;v:20px;b:60px;" data-tsh="c:#00043a;h:20px;v:20px;b:60px;" data-xy="x:c;xo:100px,175px,0,0;y:m;yo:0,0,40px,40px;" data-text="w:nowrap;s:28;l:35;a:inherit;" data-dim="w:840px,620px,620px,300px;h:560px,450px,450px,270px;" data-basealign="slide" data-rsp_o="off" data-rsp_bd="off" data-frame_0="x:50;" data-frame_1="e:power2.inOut;st:270;sp:1000;sR:270;" data-frame_999="x:-50;o:0;e:power2.inOut;st:w;sp:1000;sR:3230;" style="z-index:5;font-family:Roboto;"><iframe width="560" height="315" src="https://www.youtube.com/embed/kDZ6U9N12zU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</rs-layer> </rs-slide>
 
-                                                            </div>
-                                                        </div>
-                                                    </div>
+</rs-slides>
+<rs-progress class="rs-bottom" style="visibility: hidden !important;"></rs-progress>
+</rs-module>
+<script type="text/javascript">
+					setREVStartSize({c: 'rev_slider_2_1',rl:[1920,1701,1025,680],el:[840,768,960,720],gw:[1240,1024,778,480],gh:[840,768,960,720],type:'standard',justify:'',layout:'fullscreen',offsetContainer:'',offset:'',mh:"0"});
+					var	revapi2,
+						tpj;
+					jQuery(function() {
+						tpj = jQuery;
+						revapi2 = tpj("#rev_slider_2_1")
+						if(revapi2==undefined || revapi2.revolution == undefined){
+							revslider_showDoubleJqueryError("rev_slider_2_1");
+						}else{
+							revapi2.revolution({
+								sliderLayout:"fullscreen",
+								duration:"3500ms",
+								visibilityLevels:"1920,1701,1025,680",
+								gridwidth:"1240,1024,778,480",
+								gridheight:"840,768,960,720",
+								perspectiveType:"local",
+								editorheight:"840,768,960,720",
+								responsiveLevels:"1920,1701,1025,680",
+								disableProgressBar:"on",
+								startWithSlide:0,
+								navigation: {
+									mouseScrollNavigation:"carousel",
+									onHoverStop:false,
+									touch: {
+										touchenabled:true
+									},
+									bullets: {
+										enable:true,
+										tmp:"<span></span>",
+										style:"neobeat",
+										hide_onmobile:true,
+										hide_under:"1050px",
+										h_offset:173
+									}
+								},
+								parallax: {
+									levels:[5,10,15,20,25,30,35,40,45,46,47,48,49,50,51,30],
+									type:"scroll",
+									origo:"slidercenter",
+									speed:0
+								},
+								fallbacks: {
+									allowHTML5AutoPlayOnAndroid:true
+								},
+							});
+						}
+						
+					});
+				</script>
+<script>
+					var htmlDivCss = unescape("%40media%20only%20screen%20and%20%28max-width%3A%20680px%29%20%7B%0A%09iframe%20.ytp-chrome-top%20.ytp-chrome-top-buttons%20%7B%0A%20%20%20%20%20%20%20%20display%3A%20none%20%21important%3B%0A%20%20%20%20%7D%0A%7D");
+					var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+					if(htmlDiv) {
+						htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+					}else{
+						var htmlDiv = document.createElement('div');
+						htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+						document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+					}
+				</script>
+<script>
+					var htmlDivCss = unescape("%23rev_slider_2_1_wrapper%20.neobeat%20.tp-bullet%20%7B%0A%09width%3A13px%3B%0A%09height%3A29px%3B%0A%20%20%09transform%3A%20scaleY%280.5%29%3B%0A%09position%3Aabsolute%3B%0A%20%20%09background%3Atransparent%3B%0A%09cursor%3A%20pointer%3B%0A%09box-sizing%3Acontent-box%3B%0A%20%20%09transition%3A%200.35s%20ease-in-out%3B%0A%20%20%09transform-origin%3A%20bottom%3B%0A%7D%0A%23rev_slider_2_1_wrapper%20.neobeat%20.tp-bullet%20span%20%7B%0A%20%20%20%20background%3Argba%28255%2C%20255%2C%20255%2C%200.4%29%3B%0A%20%20%20%20position%3A%20absolute%3B%0A%20%20%20%20height%3A%20100%25%3B%0A%20%20%20%20width%3A%202px%3B%0A%20%20%20%20margin%3A%200%205px%3B%0A%20%20%09transition%3A%200.35s%20ease-in-out%3B%0A%7D%0A%0A%23rev_slider_2_1_wrapper%20.neobeat%20.tp-bullet%3Ahover%2C%0A%23rev_slider_2_1_wrapper%20.neobeat%20.tp-bullet.selected%20%7B%0A%20%20transform%3A%20scaleY%281%29%3B%0A%7D%0A%0A%23rev_slider_2_1_wrapper%20.neobeat%20.tp-bullet%3Ahover%20span%2C%0A%23rev_slider_2_1_wrapper%20.neobeat%20.tp-bullet.selected%20span%20%7B%0A%09background%3A%23ffffff%3B%0A%7D%0A%0A");
+					var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+					if(htmlDiv) {
+						htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+					}else{
+						var htmlDiv = document.createElement('div');
+						htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+						document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+					}
+				</script>
+<script>
+					var htmlDivCss = unescape("%0A%0A%0A%0A%0A");
+					var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+					if(htmlDiv) {
+						htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+					}else{
+						var htmlDiv = document.createElement('div');
+						htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+						document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+					}
+				</script>
+</rs-module-wrap>
 
-                                                   <div>
-                                                    <i><h1 style="text-align: center; color: black; margin: 5% 5% 20px;font-family:'Times New Roman', Times, serif;">ARTICLES</h1></i>
-                                                   
-                                                    <section class="pt-3 pb-3">
-                                                        <div class="container" style="height: 415px;">
-                                                          <div class="row">
-                                                              <div class="col-6">
-                                                                 
-                                                              </div>
-                                                              <div class="col-6 text-right">
-                                                                  <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-                                                                      <i class="fa fa-arrow-left"></i>
-                                                                  </a>
-                                                                  <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
-                                                                      <i class="fa fa-arrow-right"></i>
-                                                                  </a>
-                                                              </div>
-                                                              <div class="col-12">
-                                                                  <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel" height="361px">
-                                                      
-                                                                      <div class="carousel-inner">
-                                                                          <div class="carousel-item active">
-                                                                              <div class="row">
-                                                      
-                                                                                  <div class="col-md-4 mb-3">
-                                                                                      <div class="card">
-                                                                                        <div class="flip-card-inner">
-                                                                                        <div class="flip-card-front">
-                                                                                          <img class="img-fluid" alt="100%x280" src="./images/timesofindia.png">
-                                                                                        </div>
-                                                                                        <div class="flip-card-back">
-                                                                                          <div class="card-body">
-                                                                                              
-                                                                                              <h4><p class="card-text" style="padding-top:40px;">How AU students startup help others to start a startup.</p></h4>
-                                                                                              <button onclick="window.location.href='https://timesofindia.indiatimes.com/home/education/news/how-au-students-startup-helps-other-to-start-a-startup/articleshow/89042737.cms'" style="color:#14bdee;padding:10px;border: none;background: none;" >Read more...</button>
-                                                                                          </div>
-                                                                                        </div>
-                                                                                        </div>
-                                                                                      </div>
-                                                                                  </div>
-                                                                                  <div class="col-md-4 mb-3">
-                                                                                      <div class="card">
-                                                                                        <div class="flip-card-inner">
-                                                                                            <div class="flip-card-front">
-                                                                                              <img class="img-fluid" alt="100%x280" src="./images/andhrajyothi.jpg">
-                                                                                            </div>
-                                                                                            <div class="flip-card-back">
-                                                                                              <div class="card-body">
-                                                                                                  
-                                                                                                  <h4><p class="card-text" style="padding-top:40px;">Edumoon in Top 90 for TiE University Global Pitch Competition.</p></h4>
-                                                                                                  <button onclick="window.location.href='https://epaper.andhrajyothy.com/Home/FullPage?eid=7&edate=15/04/2022&pgid=115805'" style="color:#14bdee;padding:10px;border: none;background: none;" >Read more...</button>
-                                                                                              </div>
-                                                                                            </div>
-                                                                                            </div>
-                                                                                      </div>
-                                                                                  </div>
-                                                                                  <div class="col-md-4 mb-3">
-                                                                                      <div class="card">
-                                                                                        <div class="flip-card-inner">
-                                                                                            <div class="flip-card-front">
-                                                                                              <img class="img-fluid" alt="100%x280" src="./images/hellovizag.jpg">
-                                                                                            </div>
-                                                                                            <div class="flip-card-back">
-                                                                                              <div class="card-body">
-                                                                                                  
-                                                                                                  <h4><p class="card-text" style="padding-top:30px;">Vizag based startup,Edumoon selected for TiE University Global Pitch Competition.</p></h4>
-                                                                                                  <button onclick="window.location.href='https://news.hellovizag.in/vizag-based-startup-edumoon-selected-for-tie-university-global-pitch-competition'" style="color:#14bdee;padding:10px;border: none;background: none;" >Read more...</button>
-                                                                                              </div>
-                                                                                            </div>
-                                                                                            </div>
-                                                                                      </div>
-                                                                                  </div>
-                                                                              </div>
-                                                                              </div>
-                                                                                  <div class="carousel-item">
-                                                                                    <div class="row">
-                                                            
-                                                                              
-                                                      
-                                                                                  <div class="col-md-4 mb-3">
-                                                                                      <div class="card">
-                                                                                        <div class="flip-card-inner">
-                                                                                            <div class="flip-card-front">
-                                                                                              <img class="img-fluid" alt="100%x280" src="./images/timesofindia.png">
-                                                                                            </div>
-                                                                                            <div class="flip-card-back">
-                                                                                              <div class="card-body">
-                                                                                                  
-                                                                                                  <h4><p class="card-text" style="padding-top:40px;">Andhra University duo’s ed-tech startup valued at Rs 3 crore.</p></h4>
-                                                                                                  <button onclick="window.location.href='https://m.timesofindia.com/city/visakhapatnam/au-duos-ed-tech-startup-valued-at-3-crore/articleshow/91222803.cms'" style="color:#14bdee;padding:10px;border: none;background: none;" >Read more...</button>
-                                                          
-                                                                                              </div>
-                                                                                            </div>
-                                                                                            </div>
-                                                      
-                                                                                      </div>
-                                                                                  </div>
-                                                                                  <div class="col-md-4 mb-3">
-                                                                                      <div class="card">
-                                                                                        <div class="flip-card-inner">
-                                                                                            <div class="flip-card-front">
-                                                                                              <img class="img-fluid" alt="100%x280" src="./images/the hindu.png">
-                                                                                            </div>
-                                                                                            <div class="flip-card-back">
-                                                                                              <div class="card-body">
-                                                                                                  
-                                                                                                  <h4><p class="card-text" style="padding-top:35px;">Startup from AU selected for TiE University Global Pitch Competition.</p></h4>
-                                                                                                  <button onclick="window.location.href='https://www.thehindu.com/news/cities/Visakhapatnam/visakhapatnam-startup-from-andhra-university-selected-for-tie-university-global-pitch-competition/article65312064.ece'" style="color:#14bdee;padding:10px;border: none;background: none;">Read more...</button>
-                                                                                              </div>
-                                                                                            </div>
-                                                                                            </div>
-                                                                                      </div>
-                                                                                  </div>
-                                                                                  <div class="col-md-4 mb-3">
-                                                                                      <div class="card">
-                                                                                        <div class="flip-card-inner">
-                                                                                            <div class="flip-card-front">
-                                                                                              <img class="img-fluid" alt="100%x280" src="./images/hellovizag.jpg">
-                                                                                            </div>
-                                                                                            <div class="flip-card-back">
-                                                                                              <div class="card-body">
-                                                                            
-                                                                                                  <h4><p class="card-text" style="padding-top:40px;">Ed tech startup by AU students values at 3 crores Rupees</p></h4>
-                                                                                                  <button onclick="window.location.href='https://news.hellovizag.in/ed-tech-startup-by-au-students-valued-at-3-crores'" style="color:#14bdee;padding:10px;border: none;background: none;" >Read more...</button>
-                                                                                            </div>
-                                                                                            </div>
-                                                                                            </div>
-                                                                                     </div>
-                                                                                  </div>
-                                                      
-                                                                              </div>
-                                                                          </div>
-                                                                          
-                                                                      </div>
-                                                                  </div>
-                                                              </div>
-                                                          </div>
-                                                      </div>
-                                                      </section>
-                                                     
-                                                    <div>
-                                                        <h1 style="text-align: center; color: #14bdee; margin: 0% 0% 20px;">POPULAR ONLINE COURSES</h1>
-                                                        <h5 style="font-family: normal;">Expert team teaches all the popular courses like Web development, App development and EAMCET</h5>
-                                                        <div id="cards_landscape_wrap-2">
-                                                            <div class="container">
-                                                                <div class="row">
-                                                                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                                                                        <a href="#/dbms">
-                                                                            <div class="card-flyer">
-                                                                                <div class="text-box">
-                                                                                    <div class="image-box">
-                                                                                        <img src="./images/vidyaLakshmii.jpeg" alt="">
-                                                                                    </div>
-                                                                                    <div class="text-container">
-                                                                                        <h6>Database Management System</h6>
-                                                                                        <p style="margin-bottom: 30px;">Palisetty vidyaLakshmi</p>
-                                                                                        <p style="margin-bottom: 30px; font-style: italic; font-family: volkhov;">Database management systems are essential for businesses  they offer an efficient way of handling large amounts and multiple types of data. The ability to access data efficiently allows companies to make informed decisions quicker.</p>
-                                                                                        <b style="float: left; margin-bottom: 10px;">
-                                                                                            <i class="fas fa-eye" style="color: gold;"></i>1,903 views</b>
-                                                                                            <b style="width: 20px; margin-bottom: 10px; color: rgb(12, 195, 250); float: right; margin-right: 10px;">Free</b>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-                                                                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                                                                            <a href="#/flat">
-                                                                                <div class="card-flyer">
-                                                                                    <div class="text-box">
-                                                                                        <div class="image-box">
-                                                                                            <img src="./images/samuelSusann.jpeg" alt="">
-                                                                                        </div>
-                                                                                        <div class="text-container">
-                                                                                            <h6>Formal Language &amp; Automata Theory</h6>
-                                                                                            <p style="margin-bottom: 30px;">Samuel Susan</p>
-                                                                                            <p style="margin-bottom: 30px; font-style: italic; font-family: volkhov;">The major objective of automata theory is to develop methods by which computer scientists can describe and analyze the dynamic behavior of discrete systems, in which signals are sampled periodically and dynamically.</p>
-                                                                                            <b style="float: left; margin-bottom: 10px;"><i class="fas fa-eye" style="color: gold;"></i>1,184 views</b>
-                                                                                            <b style="width: 20px; margin-bottom: 10px; color: rgb(12, 195, 250); float: right; margin-right: 10px;">Free</b>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-                                                                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                                                                            <a href="#/dld">
-                                                                                <div class="card-flyer">
-                                                                                    <div class="text-box">
-                                                                                        <div class="image-box">
-                                                                                            <img src="./images/sohanaa.jpeg" alt="">
-                                                                                        </div><div class="text-container">
-                                                                                            <h6>Digital Logic Design</h6>
-                                                                                            <p style="margin-bottom: 43px; margin-top: 20px;">Sohana</p>
-                                                                                            <p style="margin-bottom: 30px; font-style: italic; font-family: volkhov;">Digital logic is fundamental in creating electronic devices. It is used to create circuits and logic gates, as well as to check computer chips and also number systems ,boolean algebra and combinational logic design circuit.</p>
-                                                                                            <b style="float: left; margin-bottom: 10px;"><i class="fas fa-eye" style="color: gold;"></i>1,000 views</b>
-                                                                                            <b style="width: 20px; margin-bottom: 10px; color: rgb(12, 195, 250); float: right; margin-right: 10px;">Free</b>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-                                                                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                                                                            <a href="#/oop">
-                                                                                <div class="card-flyer">
-                                                                                    <div class="text-box">
-                                                                                        <div class="image-box">
-                                                                                            <img src="./images/karthikk.jpg" alt="">
-                                                                                        </div>
-                                                                                        <div class="text-container">
-                                                                                            <h6>Object Oriented Programming</h6>
-                                                                                            <p style="margin-bottom: 30px;">Karun Karthik</p>
-                                                                                            <p style="margin-bottom: 30px; font-style: italic; font-family: volkhov;">C++ is one of the most widely-used programming languages in game development. It has been used to create: games, such as World of Warcraft,  game engines like Unreal Engine,and gaming consoles, including Xbox .</p>
-                                                                                            <b style="float: left; margin-bottom: 10px;"><i class="fas fa-eye" style="color: gold;"></i>1,500 views</b>
-                                                                                            <b style="width: 20px; margin-bottom: 10px; color: rgb(12, 195, 250); float: right; margin-right: 10px;">Free</b>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div> </div>
+</main>
+</div>
+</div>
+<a id="qodef-back-to-top" href="#">
+<span class="qodef-back-to-top-label">Back to top</span>
+<span class="qodef-icon-ionicons ion-ios-arrow-forward qodef-back-to-top-icon"></span></a> <div id="qodef-side-area">
+<a id="qodef-side-area-close" class="qodef-side-area-close--predefined" href="javascript:void(0)">
+<span class="qodef-circles"><span class="qodef-circles-row qodef-cr-1"><span class="qodef-circle"></span><span class="qodef-circle"></span><span class="qodef-circle"></span></span><span class="qodef-circles-row qodef-cr-2"><span class="qodef-circle"></span><span class="qodef-circle"></span><span class="qodef-circle"></span></span><span class="qodef-circles-row qodef-cr-3"><span class="qodef-circle"></span><span class="qodef-circle"></span><span class="qodef-circle"></span></span></span> </a>
+<div id="qodef-side-area-inner">
+<div id="media_image-5" class="widget widget_media_image" data-area="side-area"><a href="https://neobeat.qodeinteractive.com/"><img width="192" height="36" src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/04/Side-area-logo.png" class="image wp-image-3815  attachment-full size-full" alt="a" style="max-width: 100%; height: auto;" /></a></div><div id="text-5" class="widget widget_text" data-area="side-area"> <div class="textwidget"><p style="margin-top: 25px;">Lorem ipsum dolor sit amet Lorem Ipsum.<br />
+lorem quis bibendum aucto Lorem ipsum dolor<br />
+um aucto Lorem ipsum</p>
+</div>
+</div><div id="neobeat_core_instagram_list-6" class="widget widget_neobeat_core_instagram_list" data-area="side-area"><h4 class="qodef-widget-title">Instagram</h4><div class="qodef-shortcode qodef-m  qodef-instagram-list qodef-gutter--tiny qodef-col-num--4 qodef--enabled-blur">
+<div id="sb_instagram" class="sbi sbi_col_4  sbi_width_resp" style="padding-bottom: 10px;width: 100%;" data-feedid="sbi_neobeattheme1#8" data-res="auto" data-cols="4" data-num="8" data-shortcode-atts="{&quot;0&quot;:&quot;8&quot;,&quot;1&quot;:&quot;4&quot;,&quot;2&quot;:&quot;5&quot;,&quot;3&quot;:&quot;px&quot;,&quot;4&quot;:&quot;auto&quot;,&quot;num&quot;:&quot;8&quot;,&quot;cols&quot;:&quot;4&quot;,&quot;imagepadding&quot;:&quot;5&quot;,&quot;imagepaddingunit&quot;:&quot;px&quot;,&quot;showheader&quot;:&quot;&quot;,&quot;showfollow&quot;:&quot;&quot;,&quot;showbutton&quot;:&quot;&quot;,&quot;imageres&quot;:&quot;auto&quot;}">
+<div id="sbi_images" style="padding: 5px;">
+</div>
+<div id="sbi_load">
+</div>
+<span class="sbi_resized_image_data" data-feed-id="sbi_neobeattheme1#8" data-resized="[]">
+</span>
+<div id="sbi_mod_error">
+<span>This error message is only visible to WordPress admins</span><br />
+<p><b>Error: No posts found.</b><p>Make sure this account has posts available on instagram.com.</p> </div>
+</div>
+</div></div><div id="neobeat_core_social_icons_group-7" class="widget widget_neobeat_core_social_icons_group" data-area="side-area"><h4 class="qodef-widget-title">Follow us</h4> <div class="qodef-social-icons-group">
+<span class="qodef-shortcode qodef-m  qodef-icon-holder  qodef-layout--normal qodef-has--circle-hover" style="margin: -3px 12px 0 0;font-size: 16px">
+<a itemprop="url" href="https://www.facebook.com/QodeInteractive/" target="_blank">
+<span class="qodef-icon-font-awesome fab fa-facebook-f qodef-icon qodef-e" style="color: #2b1849"></span> <svg class="qodef-svg-circle"><circle cx="50%" cy="50%" r="45%"></circle></svg> </a>
+</span><span class="qodef-shortcode qodef-m  qodef-icon-holder  qodef-layout--normal qodef-has--circle-hover" style="margin: -3px 0 0 0;font-size: 16px">
+<a itemprop="url" href="https://www.instagram.com/qodeinteractive/" target="_blank">
+<span class="qodef-icon-font-awesome fab fa-instagram qodef-icon qodef-e" style="color: #2b1849"></span> <svg class="qodef-svg-circle"><circle cx="50%" cy="50%" r="45%"></circle></svg> </a>
+</span><span class="qodef-shortcode qodef-m  qodef-icon-holder  qodef-layout--normal qodef-has--circle-hover" style="margin: -3px 14px 0 13px;font-size: 16px">
+<a itemprop="url" href="https://twitter.com/QodeInteractive" target="_blank">
+<span class="qodef-icon-font-awesome fab fa-twitter qodef-icon qodef-e" style="color: #2b1849"></span> <svg class="qodef-svg-circle"><circle cx="50%" cy="50%" r="45%"></circle></svg> </a>
+</span><span class="qodef-shortcode qodef-m  qodef-icon-holder  qodef-layout--normal qodef-has--circle-hover" style="margin: -3px 0 0 0;font-size: 16px">
+<a itemprop="url" href="https://www.youtube.com/QodeInteractiveVideos" target="_blank">
+<span class="qodef-icon-font-awesome fab fa-youtube qodef-icon qodef-e" style="color: #2b1849"></span> <svg class="qodef-svg-circle"><circle cx="50%" cy="50%" r="45%"></circle></svg> </a>
+</span><span class="qodef-shortcode qodef-m  qodef-icon-holder  qodef-layout--normal qodef-has--circle-hover" style="margin: -3px 0 0 17px;font-size: 16px">
+<a itemprop="url" href="https://soundcloud.com/" target="_blank">
+<span class="qodef-icon-font-awesome fab fa-soundcloud qodef-icon qodef-e" style="color: #2b1849"></span> <svg class="qodef-svg-circle"><circle cx="50%" cy="50%" r="45%"></circle></svg> </a>
+</span> </div>
+</div> </div>
+</div>
+</div>
+<div class="rbt-toolbar" data-theme="NeoBeat" data-featured="" data-button-position="20%" data-button-horizontal="right" data-button-alt="no"></div>
 
-                                                            <div class="button-container">
-                                                                <a href="page1.html" class="button">View All Courses</a>
-                                                              </div>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLJLSX7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-                                                            
-                                                        </div>
-                                                       <div>
-                                                      <!--  <a href="#/tutions">
-                                                            <img class="d-block w-100 " id="img1" src="./images/tution-1230_400.png">
-                                                            <img class="d-block w-100 " id="img2" src="./images/tution- 360_456.jpg">
-                                                            </a>
-        </div>-->
-        <h1 style="text-align: center; color: black; margin: 0% 0% 20px;font-family:'Times New Roman', Times, serif;"></h1>
-        <div id="image-container" class="imgcont">
-          <a href="#tutions"><img src="./images/tution- 360_456.jpg" alt="Mobile Image" class="mobile-image" usemap="#your-map"></a> 
-           
-            
-        
-          <map name="your-map">
-                <area shape="rect" coords="104,196,267,237" href="https://www.youtube.com/">
-                <area shape="rect" coords="107,251,275,294" href="http://www.example.com">
-              
-          </map>
-          <a href="#tutions">  <img src="./images/tution-1230_400.png" alt="Desktop Image" class="desktop-image" usemap="#your-map2"></a> 
-           <map name="your-map2">
-                <area shape="rect" coords="420,393,627,568" href="https://www.youtube.com/">
-                <area shape="rect" cooxrds="622,277,841,332" href="http://www.example.com">
-              
-              </map>
-            
-            
-         <!--  <div align="center">
-                <a href="page1.html" class="button">Book Demo Class</a>
-                <a href="page2.html" class="button">Become Instructor</a>
-               
-           </div>-->
-              
-
-          </div>
-          
-
-        <div class="mt-4 latest_events" style="padding-top: 5px;">
-            <h1 class="latest_events_head pl-4 mb-0">Latest Events</h1>
-            <marquee scrollamount="15" onmouseover="this.stop()" onmouseout="this.start()">
-                <a href="https://www.youtube.com/watch?v=dG4MnKt-XIg"> 
-                <div type="button" class="modal_section sec1 ">
-                    <i class="fas fa-play sub_icon"></i>
-                </div>
-            </a>
-            <a href="https://www.youtube.com/watch?v=pmN6-rChfjk">
-                <div type="button" class="modal_section sec2">
-                    <i class="fas fa-play sub_icon"></i>
-                </div>
-            </a>
-            <a href="https://www.youtube.com/watch?v=vf0bFM2FzBQ">
-                <div type="button" class="modal_section sec3">
-                    <i class="fas fa-play sub_icon"></i>
-                </div>
-            </a>
-            <a href="https://www.youtube.com/watch?v=oYSKu6BZ9BY">
-                                                                <div type="button" class="modal_section sec4">
-                                                                    <i class="fas fa-play sub_icon"></i>
-                                                                </div></marquee>
-                                                            </a>
-                                                            <div class="modal fade" id="staticBackdrop1">
-                                                                <a href="#/dbms">
-                                                                    <div class="modal-dialog ">
-                                                                        <a href="#/dbms">
-                                            
-                                                                        </a><div class="modal-content sub_modal">
-                                                                            <div class="modal-header">
-                                                                                <a href="https://www.youtube.com/watch?v=dG4MnKt-XIg"></a>
-                                                                                <h4 class="modal-title modal_title">Crack Job At TCS</h4>
-                                                                                <a href="#/dbms"></a>
-                                                                            </div>
-                                                                            <div class="modal-body">
-                                            
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </a>
-                                                            </div>
-                                                            <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                                                <div class="modal-dialog ">
-                                                                    <div class="modal-content sub_modal">
-                                                                        <div class="modal-header">
-                                                                            <h4 class="modal-title modal_title" id="staticBackdropLabel">All About Wipro</h4>
-                                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                                        </div>
-                                                                        <div class="modal-body">
-                                            
-                                                                        </div>
-                                                                        <div class="modal-footer">
-                                                                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                                                <div class="modal-dialog ">
-                                                                    <div class="modal-content sub_modal">
-                                                                        <div class="modal-header">
-                                                                            <h4 class="modal-title modal_title" id="staticBackdropLabel">How to crack Mathworks</h4>
-                                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                                        </div>
-                                                                        <div class="modal-body">
-                                            
-                                                                        </div>
-                                                                        <div class="modal-footer">
-                                                                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true"><div class="modal-dialog "><div class="modal-content sub_modal"><div class="modal-header"><h4 class="modal-title modal_title" id="staticBackdropLabel">Digital Marketing Webin</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"></div><div class="modal-footer"><button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                                                            </div></div></div></div></div>  
-                                                       <div>
-                        
-                                                            <i><h1 style="text-align: center; color: black; margin: 5% 5% 20px;font-family:'Times New Roman', Times, serif; ">TESTIMONIAL</h1></i>
-                                                            <h5>We value our learners and let's see what they said about us.</h5>
-                                                            <div class="sai">
-                                                                <div class="container" style="background: linear-gradient(rgb(0, 4, 40), rgb(0, 70, 131)); animation: 120s ease 0s 1 normal none running background-color; min-height: 58vh; margin-top: 80px; border: 5px solid white; border-radius: 27px; overflow: hidden;">
-                                                                    <div class="row">
-                                                                        <div class="col-lg-4">
-                                                                            <div class="card" style="background-color: rgba(0, 0, 0, 0);">
-                                                                                <div class="face front-face"> 
-                                                                                    <img src="./images/sowmya.jpeg" alt="" class="profile">
-                                                                                    <div class="pt-3 text-uppercase name"> Sowmya Korada </div>
-                                                                                    <div class="designation">B.tech</div>
-                                                                                </div>
-                                                                                <div class="face back-face">
-                                                                                     <span class="fas fa-quote-left"></span>
-                                        <div class="testimonial">It was a great workshop for the beginner's to understand the basics of web development and get to know different technologies used in it. I could explore the concepts further while working on the assignments. The instructors were very humble and patiently cleared all the doubts. Overall it was a good learning experience. Thanks to Edumoon. </div>
-                                                                                      <span class="fas fa-quote-right">
-
-                                                                                      </span>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="col-lg-4">
-                                                                                <div class="card" style="background-color: rgba(0, 0, 0, 0);">
-                                                                                    <div class="face front-face"> 
-                                                                                        <img src="./images/visali1.jpeg" alt="" class="profile">
-                                                                                        <div class="pt-3 text-uppercase name"> Pemmaraju Visali</div>
-                                                                                        <div class="designation">B.tech</div>
-                                                                                    </div>
-                                                                                    <div class="face back-face">
-                                                                                         <span class="fas fa-quote-left"></span>
-                                                                                         <div class="testimonial"> I've taken the 2 day workshop of Web Development from Edumoon!. I've learnt basics about Javascript &amp; MySQL. The assignments which were given on day 1,2 helped us to understand how much we've learned in the session. Instructors  very helpful, they've clarified the doubts and responded immediately. Thank you for this wonderful session! </div> 
-                                                                                         <span class="fas fa-quote-right">
-
-                                                                                         </span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-lg-4">
-                                                                                    <div class="card" style="background-color: rgba(0, 0, 0, 0);">
-                                                                                        <div class="face front-face"> 
-                                                                                            <img src="./images/srujan.jpeg" alt="" class="profile">
-                                                                                            <div class="pt-3 text-uppercase name">Cheemakurthi Srujan </div>
-                                                                                            <div class="designation">B.tech</div>
-                                                                                        </div>
-                                                                                        <div class="face back-face"> 
-                                                                                            <span class="fas fa-quote-left"></span>
-                                                                                        <div class="testimonial">I am glad that i got this opportunity to learn new things and how to add new features. In this session everyone was super good and helped each and every student. Their dedication and effort towards this session was completely awesome. Even when we ask small/stupid questions they answered it in sweet and convenient way</div>
-                                                                                         <span class="fas fa-quote-right"></span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div>
-                                                                <footer class="footer-area">
-                                                                    <div class="footer-wave-box">
-                                                                        <div class="footer-wave footer-animation">
-
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="main">
-                                                                        <div class="footer">
-                                                                            <div class="single-footer">
-                                                                                <h4 style="color: black;">about us</h4>
-                                                                                <p style="color: white;">Edumoon provides one step solution to students.</p>
-                                                                                <div class="footer-social">
-                                                                                    <a href="https://youtube.com/c/edumoon"><i class="fab fa-youtube "></i></a>
-                                                                                    <a href="https://twitter.com/theedumoon"><i class="fab fa-twitter"></i></a>
-                                                                                    <a href="https://instagram.com/theedumoon?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
-                                                                                    <a href="https://www.linkedin.com/company/edumoon/"><i class="fab fa-linkedin-in"></i></a>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="single-footer">
-                                                                                <h4 style="color: black;">main menu</h4>
-                                                                                <ul>
-                                                                                    <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
-                        <li><a href="./tutions.html"><i class="fas fa-chevron-right"></i> Tutions</a>
-                        </li><li><a href="./courses.html"><i class="fas fa-chevron-right"></i> Courses</a></li>
-                        <li><a href="./event.html"><i class="fas fa-chevron-right"></i> Events</a></li>
-                        <li><a href="./about.html"><i class="fas fa-chevron-right"></i> About Us</a>
-                        </li> </ul>
-                                                                            </div>
-                                                                            <div class="single-footer">
-                                                                                <h4 style="color: black;">quick links</h4>
-                                                                                <ul>
-                                                                                    <li><a href=""><i class="fas fa-chevron-right"></i> privacy policy</a></li>
-                                                                                    <li><a href=""><i class="fas fa-chevron-right"></i> terms &amp; conditions</a></li>
-                                                                                    <li><a href=""><i class="fas fa-chevron-right"></i> disclaimer</a></li>
-                                                                                </ul>
-                                                                            </div>
-                                                                                            <div class="single-footer"><h4 style="color: black;">contact us</h4>
-                                                                                                <ul><li><a href=""><i class="fas fa-map-marker-alt"></i>Seetahamadhara,Visakhapatnam-530013</a></li>
-                                                                                                    <li><a href=""><i class="fas fa-mobile-alt"></i> 8555899332</a></li>
-                                                                                                    <li><a href="www.gmail.com"><i class="far fa-envelope"></i> theedumoon@gmail.com</a></li>
-                                                                                                    <li><a href="www.theedumoon.com"><i class="fas fa-globe-europe"></i> www.theedumoon.com</a></li>
-                                                                                                </ul>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="copy">
-                                                                                            <p style="color: white;">© 2023 all rights reserved</p>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </footer>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <script src="./card.js"></script>
-                                                                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-                                                                        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-                                                                        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-                                                                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js">
-                                                                    </script>
-                                                                    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
-                                                                    </script>
-                                                                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-                                                                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-                                                                    </body>
-                                                                    </html>
+<script type="text/javascript">
+var sbiajaxurl = "https://neobeat.qodeinteractive.com/wp-admin/admin-ajax.php";
+</script>
+<link href="https://fonts.googleapis.com/css?family=Roboto:400%7CPoppins:400%2C700" rel="stylesheet" property="stylesheet" media="all" type="text/css">
+<script type="text/javascript">
+		var c = document.body.className;
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+		document.body.className = c;
+	</script>
+<script type="text/javascript">
+		if(typeof revslider_showDoubleJqueryError === "undefined") {
+			function revslider_showDoubleJqueryError(sliderID) {
+				var err = "<div class='rs_error_message_box'>";
+				err += "<div class='rs_error_message_oops'>Oops...</div>";
+				err += "<div class='rs_error_message_content'>";
+				err += "You have some jquery.js library include that comes after the Slider Revolution files js inclusion.<br>";
+				err += "To fix this, you can:<br>&nbsp;&nbsp;&nbsp; 1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on";
+				err += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jQuery.js inclusion and remove it";
+				err += "</div>";
+			err += "</div>";
+				var slider = document.getElementById(sliderID); slider.innerHTML = err; slider.style.display = "block";
+			}
+		}
+		</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/neobeat.qodeinteractive.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.7'></script>
+<script type='text/javascript' src='https://export.qodethemes.com/_toolbar/assets/js/rbt-modules.js?ver=5.4.13'></script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/neobeat.qodeinteractive.com\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=4.1.4'></script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=4.1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_490b042143e89cb3c876a9462dbf391f","fragment_name":"wc_fragments_490b042143e89cb3c876a9462dbf391f","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=4.1.4'></script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/plugins/neobeat-core/assets/plugins/perfect-scrollbar/perfect-scrollbar.jquery.min.js?ver=5.4.13'></script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-includes/js/hoverIntent.min.js?ver=1.8.1'></script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/plugins/neobeat-core/assets/plugins/jquery/jquery.easing.1.3.js?ver=5.4.13'></script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/plugins/neobeat-core/assets/plugins/modernizr/modernizr.js?ver=5.4.13'></script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/plugins/neobeat-core/assets/plugins/tweenmax/tweenmax.min.js?ver=5.4.13'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var qodefGlobal = {"vars":{"adminBarHeight":0,"qodefStickyHeaderScrollAmount":900,"topAreaHeight":0,"restUrl":"https:\/\/neobeat.qodeinteractive.com\/wp-json\/","restNonce":"b90272689b","paginationRestRoute":"neobeat\/v1\/get-posts","getAlbumSongRestRoute":"neobeat\/v1\/get-album-song","headerHeight":null,"mobileHeaderHeight":70}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/themes/neobeat/assets/js/main.min.js?ver=5.4.13'></script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/plugins/neobeat-core/assets/js/neobeat-core.min.js?ver=5.4.13'></script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/themes/neobeat/assets/plugins/waitforimages/jquery.waitforimages.js?ver=5.4.13'></script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/themes/neobeat/assets/plugins/appear/jquery.appear.js?ver=5.4.13'></script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6'></script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/themes/neobeat/assets/plugins/magnific-popup/jquery.magnific-popup.min.js?ver=5.4.13'></script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3'></script>
+<script type="text/javascript" src="https://static.zdassets.com/ekr/snippet.js?key=af3078fd-a5ae-40da-bee0-e589b98c8603&#038;ver=5.4.13" id="ze-snippet"></script><script type="text/javascript">
+						zE(function(){
+							$zopim(function(){
+								var isChatEnabled = sessionStorage.getItem("qodeChatEnabled"),
+									appearingTime = 15000;
+								
+								if(isChatEnabled !== "no" && window.innerWidth > 1024) {
+									setTimeout(function(){
+										$zopim.livechat.window.show();
+										
+										 $zopim.livechat.window.onHide(function(){
+										    sessionStorage.setItem("qodeChatEnabled", "no");
+										 });
+									}, appearingTime);
+								}
+							});
+						});
+						</script><script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-includes/js/wp-embed.min.js?ver=5.4.13'></script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/plugins/neobeat-core/inc/post-types/album/shortcodes/album-player/assets/js/plugins/jplayer.playlist.min.js?ver=1'></script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/plugins/neobeat-core/inc/post-types/album/shortcodes/album-player/assets/js/plugins/jquery.jplayer.min.js?ver=1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sb_instagram_js_options = {"font_method":"svg","resized_url":"https:\/\/neobeat.qodeinteractive.com\/wp-content\/uploads\/sb-instagram-feed-images\/","placeholder":"https:\/\/neobeat.qodeinteractive.com\/wp-content\/plugins\/instagram-feed\/img\/placeholder.png"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/plugins/instagram-feed/js/sb-instagram-2-2.min.js?ver=2.4'></script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=2.9.8'></script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.7.6'></script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2'></script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=2.9.8'></script>
+<script type='text/javascript'>
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","downloadImage":"Download image"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"2.9.8","urls":{"assets":"https:\/\/neobeat.qodeinteractive.com\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"general":{"elementor_lightbox_enable_counter":"yes","elementor_lightbox_enable_fullscreen":"yes","elementor_lightbox_enable_zoom":"yes","elementor_lightbox_enable_share":"yes","elementor_lightbox_title_src":"title","elementor_lightbox_description_src":"description"},"editorPreferences":[]},"post":{"id":501,"title":"Tour%20Showcase%20%E2%80%93%20NeoBeat","excerpt":"","featuredImage":false}};
+</script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=2.9.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var qodefElementorGlobal = {"vars":{"elementorSectionHandler":[]}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://neobeat.qodeinteractive.com/wp-content/plugins/neobeat-core/inc/plugins/elementor/assets/js/elementor.js?ver=5.4.13'></script>
+</body>
+</html>
